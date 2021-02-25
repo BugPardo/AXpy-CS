@@ -7,6 +7,8 @@ from email.mime.text import MIMEText
 ############
 # change security on https://myaccount.google.com/u/2/lesssecureapps
 # allow smtp  https://mail.google.com/mail/u/2/#settings/fwdandpop
+#*****************
+# Outlook https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040#bkmk_enablepop_beta
 ###############
 
 port = 465 # Adding values as default
