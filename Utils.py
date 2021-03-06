@@ -4,6 +4,7 @@ from firebase_admin import credentials, firestore, storage
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 import base64
+import pandas as pd
 
 ################
     #Firebase connection - Class probably
@@ -54,5 +55,4 @@ def choose_file():
     Tk().withdraw()
     filename = askopenfilename()
     return filename
-
 
